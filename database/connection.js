@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 const connection = async () => {
   try {
-    await mongoose.connect("mongodb://mongo:Bu7");
+    await mongoose.connect("m");
     console.log("Connected toblog Database ");
   } catch (error) {
     console.log(error);
